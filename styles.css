@@ -1,0 +1,44 @@
+body{
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    background: #000;
+    cursor: crosshair;
+}
+
+p{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.header{
+    top: 42%;
+}
+
+.disable-selection{
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+h1::after{
+    content: ' ShivankKapur';
+    font-size: 12px;
+    position: absolute;
+    top: 3px;
+    padding-left: 5px;
+    font-weight: 400;
+}
+
+
+
+/* cursor: crosshair;  It converts the cursor to a ' + ' symbol sign instead of that arrow one */
+/* color: rgba(255, 255, 255, 0.5);  It changes the colour of the small text called " - Back To The Red - " */
+
+
+/* user-select: none;  The text of the element and its sub-elements is not selectable. */
+
+
+/* -moz-user-select: none;  controls the appearance of selection. */
+/* -webkit-touch-callout: none; webkits are used for rendering content (mainly css) in safari and chrome */
+/* ::after selector inserts something after the content of each selected element(s). */
